@@ -4,5 +4,5 @@
 # Only one run is necessary in a virgin clone of the repository
 
 mkdir build-logs
-mkdir hochzuladen
+mkdir upload
 git clone https://github.com/bebro/tuddesign.git github-repo
