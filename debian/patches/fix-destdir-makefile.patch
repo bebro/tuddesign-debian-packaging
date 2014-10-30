@@ -10,3 +10,19 @@ Zielverzeichnis im Makefile anpassen
  
  #List of documentation-files
  DOC = texmf/doc/latex/tuddesign/TUD_doc.pdf
+@@ -45,12 +45,12 @@
+ 	find $(DEST)/texmf/tex/latex/tuddesign/ -type d -exec chmod 755 {} +
+ 	find $(DEST)/texmf/tex/latex/tuddesign/ -type f -exec chmod 644 {} +
+ 	#link documentation
+-	mkdir -p $(DEST)/doc/tuddesign
+-	ln -s $(DEST)/texmf/doc/latex/tuddesign $(DEST)/doc/tuddesign/doc
++	mkdir -p $(DEST)/doc/latex-tuddesign
++	ln -s $(DEST)/texmf/doc/latex/tuddesign $(DEST)/doc/latex-tuddesign/doc
+ uninstall:
+ 	rm -rf $(DEST)/texmf/doc/latex/tuddesign
+ 	rm -rf $(DEST)/texmf/tex/latex/tuddesign
+-	rm -rf $(DEST)/doc/tuddesign
++	rm -rf $(DEST)/doc/latex-tuddesign
+ 
+ # --------------------------------------------------------------------------------
+ 
