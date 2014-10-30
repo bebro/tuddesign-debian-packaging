@@ -16,7 +16,7 @@ git branch -d debian-packaging_$VERSION_NEU
 
 # Changelog wurde angepasst, überprüfen:
 nano debian/changelog
-cp debian/changelog ../changelog.neu
+cp debian/changelog ../latex-tuddesign-$VERSION_NEU/debian/changelog
 
 
 cd ..
