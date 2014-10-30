@@ -18,5 +18,8 @@ git branch -d debian-packaging_$VERSION_NEU
 nano debian/changelog
 cp debian/changelog ../latex-tuddesign-$VERSION_NEU/debian/changelog
 
+# Delete generated changelog
+rm -R debian/
+
 
 cd ..
