@@ -6,8 +6,8 @@ cd latex-tuddesign-$VERSION_NEU/
 debuild
 cd ..
 mv latex-tuddesign_"$VERSION_NEU"_i386.build build-logs/
-mv latex-tuddesign_$VERSION_NEU.debian.tar.gz hochzuladen/
-mv latex-tuddesign_$VERSION_NEU.dsc hochzuladen/
-mv latex-tuddesign_"$VERSION_NEU"_all.deb hochzuladen/
-mv latex-tuddesign_"$VERSION_NEU"_i386.changes hochzuladen/
-mv latex-tuddesign_$VERSION_NEU.orig.tar.gz hochzuladen/
+mv latex-tuddesign_$VERSION_NEU.debian.tar.gz upload/
+mv latex-tuddesign_$VERSION_NEU.dsc upload/
+mv latex-tuddesign_"$VERSION_NEU"_all.deb upload/
+mv latex-tuddesign_"$VERSION_NEU"_i386.changes upload/
+mv latex-tuddesign_$VERSION_NEU.orig.tar.gz upload/
