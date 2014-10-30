@@ -9,3 +9,5 @@ mv tuddesign-$VERSION_NEU/ latex-tuddesign-$VERSION_NEU/
 cp -R debian/ latex-tuddesign-$VERSION_NEU/debian/
 cd latex-tuddesign-$VERSION_NEU/
 dquilt push -a
+
+cd ..
