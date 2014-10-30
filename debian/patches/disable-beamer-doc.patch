@@ -1,0 +1,13 @@
+Beamer kann nicht fehlerfrei übersetzt werden. Daher vorerst deaktiviert
+--- a/Makefile
++++ b/Makefile
+@@ -15,8 +15,7 @@
+ 	texmf/doc/latex/tuddesign/examples/tudreport/TUDarticle.pdf\
+ 	texmf/doc/latex/tuddesign/examples/tudreport/TUDreport.pdf\
+ 	texmf/doc/latex/tuddesign/examples/tudletter/TUDletter.pdf\
+-	texmf/doc/latex/tuddesign/examples/tudexercise/TUDexercise.pdf\
+-	texmf/doc/latex/tuddesign/examples/tudbeamer/TUDbeamer.pdf
++	texmf/doc/latex/tuddesign/examples/tudexercise/TUDexercise.pdf
+ 
+ #Keep GNU make from automatically deleting files with these endings:
+ .PRECIOUS: %.ps %.dvi

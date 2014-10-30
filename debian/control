@@ -1,0 +1,23 @@
+Source: latex-tuddesign
+Section: text
+Priority: optional
+Maintainer: Benjamin Brockhaus <tulatex@burning-world.de>
+Build-Depends: debhelper (>= 8.0.0), texlive-base-bin | tetex-bin (>= 3.0)
+Standards-Version: 3.9.3
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/latex-tuddesign.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/latex-tuddesign.git;a=summary
+
+Package: latex-tuddesign
+Architecture: all
+Pre-Depends: texlive-base-bin | tetex-bin (>= 3.0), ${shlibs:Pre-Depends}, ${misc:Pre-Depends}
+Depends: texlive-latex-recommended | tetex-extra, texlive-latex-base | tetex-base, texlive-latex-extra | tetex-extra, texlive-fonts-extra (>= 2007.dfsg.1-1) | texlive-fonts-extra (>=2007-3), texlive-fonts-recommended, texlive-latex-base | tetex-extra, texlive-latex-extra | tetex-extra, latex-xcolor, texlive-pdfetex | tetex-extra | texlive-latex-recommended (>= 2007-13), tex-tudfonts (>= 0.0.20080131), latex-beamer, dpkg, tex-common
+Recommends: texlive-lang-german | tetex-base
+Description: Corporate Design LaTeX classes for Technische Universität Darmstadt
+ This package provides LaTeX classes for different tasks.
+ Current available classes:
+  * tudbeamer
+  * tudexercise
+  * tudletter
+  * tudposter
+  * tudreport

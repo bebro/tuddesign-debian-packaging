@@ -1,0 +1,12 @@
+Zielverzeichnis im Makefile anpassen
+--- a/Makefile
++++ b/Makefile
+@@ -5,7 +5,7 @@
+ 
+ 
+ #Where to install the files:
+-DEST = $(DESTDIR)/usr/local/share
++DEST = $(DESTDIR)/usr/share
+ 
+ #List of documentation-files
+ DOC = texmf/doc/latex/tuddesign/TUD_doc.pdf
