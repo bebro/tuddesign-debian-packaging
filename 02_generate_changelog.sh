@@ -1,6 +1,6 @@
 #!/bin/bash
-VERSION_NEU=1.0.20141024
-VERSION_ALT=1.0.20140920
+#VERSION_NEU=1.0.20141024
+#VERSION_ALT=1.0.20140920
 
 #Überprüfung notwendig, ob Tags existieren!
 

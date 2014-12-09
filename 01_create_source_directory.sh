@@ -1,6 +1,6 @@
 #!/bin/bash
-VERSION_NEU=1.0.20141024
-VERSION_ALT=1.0.20140920
+export VERSION_NEU=1.0.20141209
+export VERSION_ALT=1.0.20140920
 
 rm -R latex-tuddesign-$VERSION_NEU
 wget https://github.com/bebro/tuddesign/archive/$VERSION_NEU.tar.gz -O latex-tuddesign_$VERSION_NEU.orig.tar.gz
