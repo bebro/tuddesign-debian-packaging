@@ -5,4 +5,4 @@
 
 mkdir build-logs
 mkdir upload
-git clone https://github.com/bebro/tuddesign.git github-repo
+git clone https://github.com/tudadesign/tudadesign.git github-repo
