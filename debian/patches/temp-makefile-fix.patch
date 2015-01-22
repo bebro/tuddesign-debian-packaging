@@ -1,0 +1,10 @@
+--- a/Makefile
++++ b/Makefile
+@@ -78,5 +78,5 @@
+ 	dvips $(notdir $<);
+ %.dvi:
+ 	cd $(dir $@); \
+-	TEXINPUTS=":$(CURDIR)/texmf/tex/latex/tuddesign//:" latex $(basename $(notdir $@)).tex; \
+-	TEXINPUTS=":$(CURDIR)/texmf/tex/latex/tuddesign//:" latex $(basename $(notdir $@)).tex;
++	TEXINPUTS="$(CURDIR)/texmf/tex/latex/tuddesign//:" latex $(basename $(notdir $@)).tex; \
++	TEXINPUTS="$(CURDIR)/texmf/tex/latex/tuddesign//:" latex $(basename $(notdir $@)).tex;
