@@ -15,7 +15,7 @@ git checkout master
 git branch -d debian-packaging_$VERSION_NEU
 
 # Changelog wurde angepasst, überprüfen:
-nano debian/changelog
+editor debian/changelog
 cp debian/changelog ../latex-tuddesign-$VERSION_NEU/debian/changelog
 
 # Delete generated changelog
